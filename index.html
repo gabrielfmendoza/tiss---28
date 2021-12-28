@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="./sweetalert2.all.min.js"></script>
+  <title>FORM TISS</title>
+</head>
+
+<body>
+  <div class="table-responsive">
+    <table class="table table-bordered  align-middle">
+      <thead>
+        <tr>
+          <th colspan="5" class="text-center">TABLA TISS - 28</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <form id="tiss">
+          <tr>
+            <td colspan="5" class="table-primary font-weight-bold">
+              Actvidades Basicas
+            </td>
+          </tr>
+          <tr>
+
+            <td colspan="2">Monitorización estándar, contantes horarias, cálculo de balance de líquidos</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="moES" value="5"></td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">Laboratorio, bioquímica y microbiología de cualquier tipo</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="lbm" value="1"></td>
+
+          </tr>
+          <tr>
+
+            <td colspan="1">Laboratorio, bioquímica y microbiología de cualquier tipo</td>
+            <td colspan="1">Medicación intravenosa múltiple, más de un fármaco, dosis única o continua</td>
+            <td><input class="form-check-input" type="radio" name="lbym" value="2"></td>
+            <td><input class="form-check-input" type="radio" name="lbym" value="3"></td>
+          </tr>
+          <tr>
+
+            <td colspan="1">Cambios rutinarios de apósitos. Cuidado y prevención de decúbitos y cambios diarios</td>
+            <td colspan="1">Cambios frecuentes de apósitos. Cambios frecuentes (al menos una vez por turno) o cuidado de
+              heridas extensas</td>
+            <td><input class="form-check-input" type="radio" name="crda" value="1"></td>
+            <td><input class="form-check-input" type="radio" name="crda" value="1"></td>
+          </tr>
+          <tr>
+
+            <td colspan="2">Cuidados de drenajes. Cualquier tipo (excepto SNG)</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="cdd" value="3"></td>
+
+          </tr>
+          <tr>
+            <td colspan="5" class="table-primary font-weight-bold">
+              Soporte ventilatorio
+            </td>
+          </tr>
+          <tr>
+
+            <td colspan="1">Ventilación mecánica. Cualquier forma con presión positiva al final de la espiración o sin
+              ella,
+              con relajantes musculares o sin ellos, ventilación espontánea con presión positiva al final de
+              la espiración</td>
+            <td colspan="1">
+              Cuidados ventilatorios suplementarios: ventilación espontánea a través de tubo endotraqueal
+              sin presión positiva al final de la espiración, administración de O2 por cualquier método,
+              excepto bajo situación de ventilación mecánica
+            </td>
+
+            <td><input class="form-check-input" type="radio" name="vm" value="5"></td>
+            <td><input class="form-check-input" type="radio" name="vm" value="2"></td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">Cuidados de la vía aérea artificial. Tubo endotraqueal o traqueotomía</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="cdlvaa" value="1"></td>
+
+          </tr>
+
+          <tr>
+
+            <td colspan="2">Medidas para mejorar la función respiratoria, fisioterapia, espirometrías incentivadas,
+              terapia
+              de inhalación, aspiración por tubo endotraquea</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="mpmlfr" value="1"></td>
+
+          </tr>
+          <tr>
+            <td colspan="5" class="table-primary font-weight-bold">
+              Soporte hemodinámico
+            </td>
+          </tr>
+          <tr>
+
+            <td colspan="1">Un fármaco vasoactivo cualquiera</td>
+            <td colspan="1">
+              Múltiples fármacos vasoactivos: más un fármaco vasoactivo, independientemente del tipo y
+              dosis
+            </td>
+
+            <td><input class="form-check-input" type="radio" name="fvc" value="3"></td>
+            <td><input class="form-check-input" type="radio" name="fvc" value="4"></td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">Reposición intravenosa de importantes pérdidas de líquidos. Administración de líquidos
+              mayor de 3 L/m2/día, independientemente del tipo</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="ridipdl" value="4"></td>
+
+          </tr>
+          <tr>
+            <td colspan="5" class="table-primary font-weight-bold">
+              Catetér artificial periférico
+            </td>
+          </tr>
+          <tr>
+
+            <td colspan="2">Catéter de Swan Ganz con medición del gasto cardíaco o sin él</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="cdsg" value="8"></td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">Catéter venoso central</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="cvc" value="2"></td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">RCP en las últimas 24 horas (no se incluye la simple percusión precordial)</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="rcpu24h" value="3"></td>
+
+          </tr>
+          <tr>
+            <td colspan="5" class="table-primary font-weight-bold">
+              Soporte renal
+            </td>
+          </tr>
+          <tr>
+
+            <td colspan="2">Técnicas de hemofiltración. Técnicas dialíticas</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="tdh" value="3"></td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">Monitorización de la diuresis: por medio de sonda urinaria</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="mdldpmdsu" value="2"></td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">Diuresis activa (p. ej., furosemida o 5 mg/kg/día por sobrecarga)</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="da" value="3"></td>
+
+          </tr>
+          <tr>
+            <td colspan="5" class="table-primary font-weight-bold">
+              Soporte neurológico
+            </td>
+          </tr>
+          <tr>
+
+            <td colspan="2">Monitorización de la presión intracraneal</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="mdlpi" value="4"></td>
+
+          </tr>
+          <tr>
+            <td colspan="5" class="table-primary font-weight-bold">
+              Soporte metabólico
+            </td>
+          </tr>
+
+          <tr>
+
+            <td colspan="2">Tratamiento de las complicaciones metabólicas acidosis/alcalosis</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="tdlcma" value="4"></td>
+
+          </tr>
+
+          <tr>
+
+            <td colspan="2">Alimentación intravenosa</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="ai" value="3"></td>
+
+          </tr>
+
+          <tr>
+
+            <td colspan="2">Alimentación enteral. A través de una sonda nasogástrica u otra gastrointestinal (p. ej.,
+              yeyunostomía)</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="ae" value="2"></td>
+
+          </tr>
+          <tr>
+            <td colspan="5" class="table-primary font-weight-bold">
+              Intervenciones específicas
+            </td>
+          </tr>
+          <tr>
+
+            <td colspan="1">Intervención única en la UCI. Intubación nasotraqueal u orotraqueal. Implante de marcapasos,
+              cardioversión, endoscopia,
+              cirugía de urgencia en las últimas 24 horas, lavado gástrico.
+              No se incluyen intervenciones de rutina sin consecuencia directa sobre la condición clínica
+              del paciente, como RX, ecografías, ECG o introducción de catéteres arteriales o venosos</td>
+            <td colspan="1">
+              Intervenciones específicas múltiples de la UCI: más de una carga de la descrita anteriormente
+            </td>
+
+            <td><input class="form-check-input" type="radio" name="iuci" value="3"></td>
+            <td><input class="form-check-input" type="radio" name="iuci" value="5"></td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">Intervenciones específicas fuera de la UCI: cirugías o procedimientos de diagnóstico</td>
+
+            <td colspan="2"><input class="form-check-input" type="checkbox" name="ifuci" value="5"></td>
+
+          </tr>
+
+        </form>
+      </tbody>
+    </table>
+  </div>
+  <div class="calcular">
+    <button class="btn btn-primary m-5" id="calcular">calcular</button>
+  </div>
+</body>
+
+<script type="text/javascript" src="./bootstrap.bundle.min.js"></script>
+<script src="./app.js"></script>
+
+</html>

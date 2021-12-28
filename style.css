@@ -1,0 +1,13 @@
+.vea {
+  max-width: 1rem;
+}
+td {
+  text-align: center;
+  text-transform: initial;
+}
+
+.calcular {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
